@@ -1,8 +1,8 @@
 var cowsay = require('cowsay');
-const newCowsay = module.exports = function(a){
+const newCowsay = module.exports = function(e){
 
   return cowsay.say ({
-    text : a,
+    text : e,
     e : 'oO',
     T : 'U'
   });
