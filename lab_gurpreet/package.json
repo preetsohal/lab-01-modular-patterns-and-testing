@@ -1,0 +1,26 @@
+{
+  "name": "gulpapp",
+  "version": "1.0.0",
+  "description": "installing gulp and dependencies ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint": "^3.0.1",
+    "gulp": "^3.9.1",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "gupreet",
+  "license": "MIT"
+}
