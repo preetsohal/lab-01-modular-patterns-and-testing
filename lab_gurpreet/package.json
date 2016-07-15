@@ -1,5 +1,5 @@
 {
-  "name": "gulpapp",
+  "name": "async_project",
   "version": "1.0.0",
   "description": "installing gulp and dependencies ",
   "main": "index.js",
@@ -22,5 +22,11 @@
     "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "gupreet",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "async_project": "async_read.js"
+  },
+  "keywords": [
+    "async"
+  ]
 }
