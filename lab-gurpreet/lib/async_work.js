@@ -15,5 +15,5 @@ module.exports = function(fileList, cb) {
       if (err) return cb(err);
       fileDone({position: i, data: data});
     });
-  };
+  }
 };
